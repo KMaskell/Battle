@@ -1,6 +1,6 @@
 require 'sinatra/base'
 
-class Battle < Sinatra::base
+class Battle < Sinatra::Base
   get '/' do
     'Hello Battle!'
   end
