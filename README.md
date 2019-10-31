@@ -1,11 +1,16 @@
 ## Functionality Notes ##
 
+* Sinatra is a DSL for quickly creating web apps in Ruby with minimal effort
+* Post/Redirect/Get is a web dev design pattern that allows for the age shown to the user after a form submission to be reloaded, shared or bookmarkerd. Enable sessions so you can store info between requests.
 * In the context of HTTP requests, parameters provide a way for information to be passed from a user to your application. Params are used to allow interactivity on a website e.g. by allowing form data to be sent
 * Params are passed in the form of a hash; a series of key-value pairs. There are several types of params you can use to submit info to your app:
   - Form Params
   - Query String Params
   - URL Path Parameters
   - Splat Parameters
+
+* use POST-redirect lop to avoid rendering views directly from a POST request
+
 
 
 
