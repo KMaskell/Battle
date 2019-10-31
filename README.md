@@ -9,7 +9,8 @@
   - URL Path Parameters
   - Splat Parameters
 
-* use POST-redirect lop to avoid rendering views directly from a POST request
+* Use POST-redirect lop to avoid rendering views directly from a POST request
+* Use test helpers to DRY up your code!
 
 
 
