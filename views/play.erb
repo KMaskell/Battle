@@ -1,6 +1,7 @@
-<h2><center>It's <%= @player_1.name %> vs. <%= @player_2.name %></center)></h2>
-<h2><center><%= @player_2.name %>: <%= @player_2.hit_points %>HP </center)></h2>
+<h2><center>It's <%= @game.player_1.name %> vs. <%= @game.player_2.name %></center)></h2>
+<h2><center><%= @game.player_2.name %>: <%= @game.player_2.hit_points %>HP </center)></h2>
 <h1><center> GAME ON!! </center></h1>
+<h2><center><%= @game.current_turn.name %>'s turn</center></h2>
 <h1><center><form action="/attack">
   <input type="submit" value="Attack">
 </form></center></h1>
