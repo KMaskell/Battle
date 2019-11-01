@@ -11,6 +11,7 @@
 
 * Use POST-redirect lop to avoid rendering views directly from a POST request
 * Use test helpers to DRY up your code!
+* OOD best practices: 
 
 
 
